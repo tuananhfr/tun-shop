@@ -19,13 +19,13 @@ function Contact() {
                 <div className="col-md-6">
                     <form>
                         <div className="mb-3">
-                            <label for="exampleForm" className="form-label">
+                            <label htmlFor="exampleForm" className="form-label">
                                 Full Name
                             </label>
                             <input type="text" className="form-control" id="exampleForm" placeholder="Jonh Smith" />
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label">
+                            <label htmlFor="exampleFormControlInput1" className="form-label">
                                 Email address
                             </label>
                             <input
@@ -36,7 +36,7 @@ function Contact() {
                             />
                         </div>
                         <div className="mb-3">
-                            <label for="exampleFormControlTextarea1" className="form-label">
+                            <label htmlFor="exampleFormControlTextarea1" className="form-label">
                                 Example textarea
                             </label>
                             <textarea className="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>

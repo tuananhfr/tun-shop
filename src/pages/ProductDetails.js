@@ -50,7 +50,7 @@ function ProductDetails() {
         };
         return (
             <>
-                <div className="col-md-6 d-flex justify-content-center mx auto product">
+                <div className="col-md-6 d-flex justify-content-center mx auto product" key={product.title}>
                     <img src={product.image} alt={product.title} height="400px" width="400px" />
                 </div>
                 <div className="col-md-6">

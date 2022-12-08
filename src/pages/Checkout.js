@@ -6,7 +6,7 @@ function Checkout() {
     const itemList = (item) => {
         total = total + item.price;
         return (
-            <li className="list-group-item d-flex justify-content-center lh-sm">
+            <li className="list-group-item d-flex justify-content-center lh-sm" key={item.title}>
                 <div className="d-flex">
                     <div className="bi me-2">
                         <img src={item.image} alt={item.title} height="75px" />
